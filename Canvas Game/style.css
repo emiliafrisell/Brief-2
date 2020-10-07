@@ -1,0 +1,21 @@
+body {
+    width: 400px;
+    margin: auto;
+    padding-top: 1rem;
+}
+canvas {
+    display: grid;
+    grid-template-areas: repeat(40, 10px);
+    grid-template-columns: repeat(40, 10px);
+    height: 210px;
+    border: 2px dashed green;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 7px;
+    padding-top: 9px;
+}
+
+img {
+    display: none;
+    color: chocolate;
+}
