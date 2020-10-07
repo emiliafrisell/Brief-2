@@ -132,6 +132,10 @@ let controller = (function() {
 
     // };
     
+    let newFunction = function() {
+        console.log('testing GITHUB!');
+    };
+    
     let startVoiceCtrl = function () {
         // voiceControl();
         recognition.start();
